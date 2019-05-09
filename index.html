@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap carousel - Gravity Falls</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="nav navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://disneynow.go.com/shows/gravity-falls" target="_blank">
+                    <img class="logo" src="https://i.koya.io/GravityFallsTitle_GravityFalls" alt="Logo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                    <li><a href="http://themysteryofgravityfalls.com/" target="_blank">Gravity Falls Decoder</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    <section class="text-center">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- navigation -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- photos -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active example-1">
+                    <img src="https://images8.alphacoders.com/625/thumb-1920-625703.jpg" alt="img_1">
+                </div>
+                <div class="item example-2">
+                    <img src="https://i.pinimg.com/originals/bb/d5/1a/bbd51a6da574881d77c4abb7c1d3c8d4.jpg" alt="img_2">
+                </div>
+                <div class="item example-3">
+                    <img src="https://images2.alphacoders.com/693/thumb-1920-693742.png" alt="img_3">
+                </div>
+                <div class="item example-4">
+                    <img src="https://images3.alphacoders.com/693/thumb-1920-693747.png" alt="img_4">
+                </div>
+                <div class="item example-5">
+                    <img src="https://i.pinimg.com/originals/06/18/9e/06189ea3d7e6e7c7b99f84296ff33000.jpg" alt="img_5">
+                </div>
+            </div>
+            <!-- arrows -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!--Tabs-->
+    <section>
+        <div class="container">
+            <ul class="nav nav-pills nav-justified">
+                <li class="active"><a data-toggle="tab" href="#home">Info</a></li>
+                <li><a data-toggle="tab" href="#about-us">About Us</a></li>
+                <li><a data-toggle="tab" href="#contact">Contact</a></li>
+                <li><a data-toggle="tab" href="#gravity-falls">Gravity Falls</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <h3 class="text-center">Home</h3>
+                    <p>Candy chupa chups ice cream cake halvah. Fruitcake apple pie brownie marzipan. Sesame snaps jelly liquorice apple pie. Apple pie bonbon tootsie roll ice cream marzipan cake. Candy canes chocolate marshmallow topping. Bear claw topping cake gingerbread marshmallow. Chocolate gummi bears bear claw sweet roll chocolate jelly beans dragée. Bear claw icing jujubes. Oat cake powder tiramisu gummi bears chupa chups croissant. Topping oat cake apple pie halvah fruitcake sesame snaps pudding pastry. Candy danish cotton candy soufflé fruitcake pie. Gummies marzipan toffee candy cotton candy bonbon muffin chocolate bonbon. Pudding pie pie apple pie halvah. Wafer sweet roll cake fruitcake.</p>
+                </div>
+                <div id="about-us" class="tab-pane fade">
+                    <h3 class="text-center">About Us</h3>
+                    <p>Wafer lollipop fruitcake lollipop. Cupcake lollipop chupa chups danish cookie icing ice cream. Chocolate marshmallow dragée. Candy chupa chups sweet roll brownie sweet cotton candy tart. Donut powder topping. Marshmallow bear claw wafer soufflé. Jujubes halvah cheesecake donut jelly-o. Tootsie roll wafer sweet roll cotton candy ice cream jelly-o toffee lollipop macaroon. Powder carrot cake tart halvah cookie cake liquorice tart. Pastry danish chupa chups marzipan halvah dessert dragée chupa chups cookie. Bonbon carrot cake chocolate. Croissant pastry danish halvah powder. Marshmallow gingerbread cake powder lollipop oat cake lemon drops.</p>
+                </div>
+                <div id="contact" class="tab-pane fade">
+                    <h3 class="text-center">Contact</h3>
+                    <p>Carrot cake tart marzipan sweet roll. Tart soufflé dragée jelly ice cream jelly muffin chocolate cake pie. Toffee biscuit lollipop. Cupcake fruitcake biscuit biscuit sweet macaroon croissant candy. Donut pudding muffin cheesecake macaroon. Halvah donut gummies croissant fruitcake bonbon. Bonbon chupa chups sugar plum marshmallow pastry powder gummi bears. Danish cookie bonbon fruitcake. Gingerbread bear claw cheesecake dessert gummies croissant jelly-o. Toffee donut cake dessert sugar plum ice cream halvah lollipop pudding. Chocolate bar fruitcake marzipan cheesecake. Dragée brownie pie chocolate cake. Caramels tart dragée sweet roll oat cake gummies dessert. Jelly beans jelly beans icing sweet roll muffin chupa chups halvah.</p>
+                </div>
+                <div id="gravity-falls" class="tab-pane fade">
+                    <h3 class="text-center">Gravity Falls</h3>
+                    <p>Gravity Falls is an American animated television series produced by Disney Television Animation originally for Disney Channel (and then later for Disney XD) from June 15, 2012 to February 15, 2016. Created by Alex Hirsch, the series follow the adventures of Dipper Pines (voiced by Jason Ritter) and his twin sister Mabel (voiced by Kristen Schaal) who are sent to spend the summer with their great-uncle (or "Grunkle") Stan (voiced by Hirsch), in a mysterious town full of paranormal forces and supernatural creatures. The kids help Stan run "The Mystery Shack", the tourist trap that he owns, while also investigating the local mysteries.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Button-->
+    <section class="text-center">
+        <div class="container">
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Check It
+            </button>
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Quotation</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>"Reality is an Illusion, The Universe is a Hologram - buy Gold"</p>
+                        </div>
+                        <div class="modal-footer">
+                            <p>- Bill Cipher</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

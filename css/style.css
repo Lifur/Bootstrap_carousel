@@ -1,0 +1,23 @@
+/*General*/
+body {
+  padding-bottom: 10px;
+}
+
+/*Navbar*/
+.logo {
+  max-height: 30px;
+}
+
+/*Carousel*/
+.carousel {
+  margin-top: 50px;
+}
+.carousel img {
+  max-height: calc(100vh - 50px);
+  width: 100%;
+}
+
+/*Button*/
+.btn-warning {
+  margin-bottom: 30px;
+}
